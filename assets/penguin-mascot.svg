@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+  <title id="title">Penguin mascot</title>
+  <desc id="desc">A penguin mascot holding a glowing lightbulb and an open blue book.</desc>
+  <defs>
+    <radialGradient id="bulbGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff9b5"/>
+      <stop offset="60%" stop-color="#ffe664"/>
+      <stop offset="100%" stop-color="#ffb72b"/>
+    </radialGradient>
+    <linearGradient id="bookBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f80ff"/>
+      <stop offset="100%" stop-color="#0e4fb9"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="214" cy="388" rx="126" ry="18" fill="#cfd9ea" opacity="0.35"/>
+  </g>
+
+  <g transform="translate(8 0)">
+    <g transform="translate(10 18)">
+      <circle cx="48" cy="60" r="38" fill="url(#bulbGlow)" stroke="#e69900" stroke-width="8"/>
+      <rect x="38" y="92" width="20" height="18" rx="6" fill="#7a4a00"/>
+      <path d="M48 8v-22M84 24l16-16M92 60h24M76 94l16 16M12 24L-4 8M4 60h-24" fill="none" stroke="#ffb300" stroke-linecap="round" stroke-width="8"/>
+    </g>
+
+    <g transform="translate(152 136)">
+      <path d="M0 0c-32 0-58 26-58 58v68h40V58c0-10 8-18 18-18h34V0z" fill="#0b1020"/>
+      <ellipse cx="14" cy="40" rx="18" ry="20" fill="#0b1020"/>
+    </g>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="212" cy="182" rx="122" ry="148" fill="#081225"/>
+    <ellipse cx="212" cy="206" rx="88" ry="122" fill="#f8f5f1"/>
+    <ellipse cx="178" cy="148" rx="34" ry="40" fill="#ffffff"/>
+    <ellipse cx="246" cy="148" rx="34" ry="40" fill="#ffffff"/>
+    <circle cx="178" cy="148" r="14" fill="#111827"/>
+    <circle cx="246" cy="148" r="14" fill="#111827"/>
+    <circle cx="173" cy="142" r="4" fill="#ffffff"/>
+    <circle cx="241" cy="142" r="4" fill="#ffffff"/>
+    <circle cx="178" cy="148" r="32" fill="none" stroke="#6b7280" stroke-width="7"/>
+    <circle cx="246" cy="148" r="32" fill="none" stroke="#6b7280" stroke-width="7"/>
+    <rect x="206" y="145" width="12" height="6" rx="3" fill="#6b7280"/>
+    <path d="M196 182l16 12 16-12-16-8-16 8z" fill="#ff9b22"/>
+    <path d="M200 194h24l-12 14-12-14z" fill="#f07d17"/>
+    <path d="M136 282c10-28 38-46 76-46 40 0 70 20 78 52-26 8-54 12-82 12-28 0-52-4-72-18z" fill="#0d1e39"/>
+    <path d="M258 224c28 2 48 18 62 46l20 44-30 12-34-56-18-32z" fill="#0b1020"/>
+    <path d="M145 226c-24 8-40 22-54 44l-12 34 26 8 26-44 14-20z" fill="#0b1020"/>
+    <ellipse cx="154" cy="360" rx="34" ry="18" fill="#ff9419"/>
+    <ellipse cx="270" cy="360" rx="34" ry="18" fill="#ff9419"/>
+  </g>
+
+  <g transform="translate(206 250) rotate(6)" filter="url(#softShadow)">
+    <path d="M0 20c18-20 58-30 104-16v96c-38-14-70-12-104 8V20z" fill="url(#bookBlue)"/>
+    <path d="M0 20c-18-20-58-30-104-16v96c38-14 70-12 104 8V20z" fill="#0a58cf"/>
+    <path d="M0 18v92" fill="none" stroke="#dceeff" stroke-width="4"/>
+    <path d="M20 32c18-6 42-8 70 0M20 50c18-6 42-8 70 0M20 68c18-6 42-8 70 0" fill="none" stroke="#dceeff" stroke-linecap="round" stroke-width="4"/>
+    <path d="M-90 32c18-6 42-8 70 0M-90 50c18-6 42-8 70 0M-90 68c18-6 42-8 70 0" fill="none" stroke="#dceeff" stroke-linecap="round" stroke-width="4"/>
+  </g>
+</svg>
